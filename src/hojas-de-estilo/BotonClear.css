@@ -1,0 +1,29 @@
+.boton-clear {
+  display: flex;
+  flex: 1 1;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 20px;
+  margin: 3px 5px;
+  border: none;
+  border-radius: 5px;
+  float: left;
+  background-color: rgb(13, 27, 42);
+  color: #bf4d5d;
+  box-shadow: -1px 1px 30px -5px rgba(0, 0, 0, 0.2);
+}
+.boton-clear:hover {
+  cursor: pointer;
+  /* border: solid 1px #219ebc; */
+}
+.boton-clear:active {
+  transform: scale(1.05);
+  box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.19), 0 1.5px rgba(0, 0, 0, 0.23);
+}
+@media screen and (min-width: 360px) {
+  .boton-clear {
+    width: 47%;
+    height: 12vh;
+  }
+}
